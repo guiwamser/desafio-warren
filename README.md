@@ -3,8 +3,26 @@ DESAFIO 01:
 
 Alguns números inteiros positivos n possuem uma propriedade na qual a soma de n + reverso(n) resultam em números ímpares. Por exemplo, 36 + 63 = 99 e 409 + 904 = 1313. Considere que n ou reverso(n) não podem começar com 0. Existem 120 números reversíveis abaixo de 1000. Construa um algoritmo que mostre na tela todos os números n onde a soma de n + reverso(n) resultem em números ímpares que estão abaixo de 1 milhão.
 
-SOLUÇÃO
-Neste desafio é necessário escrever a soma de todos os números N sendo N um número dos N*, tal que N + inverso(N) < 1.000.000 e seja ímpar
+SOLUÇÃO:
+
+Neste desafio é necessário escrever a soma números N + reverso(N), sendo N um número N* e <1 milhão e para N e reverso(N) o algarismo inicial deve ser diferente de 0. Após a soma condiciona-se que o resultado deva ser ímpar.
+
+
+Var:
+	N, reverso(N): inteiro
+	resultado: ímpar
+
+Início 
+	N <= 1000000
+	N + reverso(N) <- resultado
+	Se (resultado % 2 = 1) entao 
+		Escreval ("verdadeiro")
+	Senao
+		Escreval ("falso")
+	Fimse
+Fimalgoritmo
+
+
 
 DESAFIO 02:
 
